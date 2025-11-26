@@ -10,7 +10,7 @@ import Skills from "@/components/homepage/skills/Skills";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-[90%] mx-auto">
+    <div className="w-full max-w-[90%] mx-auto bg-[#0A0A0A]">
       <HeroSection />
       <AboutSection />
       <Experience />
