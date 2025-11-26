@@ -7,7 +7,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <>
+    <div className="bg-[#0A0A0A]">
       <nav
         className={`fixed bg-black top-0 left-0 right-0 z-50 transition-colors duration-300 w-full max-w-[90%] mx-auto ${
           open ? "bg-black md:bg-transparent" : ""
@@ -125,7 +125,7 @@ function Navbar() {
           box-shadow: 0 0 12px rgba(192, 192, 192, 0.6);
         }
       `}</style>
-    </>
+    </div>
   );
 }
 
